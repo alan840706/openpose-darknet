@@ -22,6 +22,7 @@ LIBS += -L/usr/local/lib/
 LIBS += -lopencv_core
 LIBS += -lopencv_highgui
 LIBS += -lopencv_imgproc
+LIBS += -lopencv_imgcodecs
 
 SOURCES += \
     /content/openpose-darknet/src/main.cpp \
