@@ -24,8 +24,8 @@ LIBS += -lopencv_highgui
 LIBS += -lopencv_imgproc
 
 SOURCES += \
-    main.cpp \
-    run_darknet.c
+    /content/openpose-darknet/src/main.cpp \
+    /content/openpose-darknet/src/run_darknet.c
 
 HEADERS += \
-    run_darknet.h
+    /content/openpose-darknet/src/run_darknet.h
