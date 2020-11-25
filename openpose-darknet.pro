@@ -14,9 +14,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-INCLUDEPATH += /darknet/include/
+INCLUDEPATH += content/darknet/include/
 
-LIBS += -L/darknet
+LIBS += -L/content/darknet
 LIBS += -ldarknet
 LIBS += -L/usr/local/lib/
 LIBS += -lopencv_core
@@ -24,8 +24,8 @@ LIBS += -lopencv_highgui
 LIBS += -lopencv_imgproc
 
 SOURCES += \
-    /openpose-darknet/src/main.cpp \
-    /openpose-darknet/src/run_darknet.c
+    /content/openpose-darknet/src/main.cpp \
+    /content/openpose-darknet/src/run_darknet.c
 
 HEADERS += \
-    /openpose-darknet/src/run_darknet.h
+    /content/openpose-darknet/src/run_darknet.h
