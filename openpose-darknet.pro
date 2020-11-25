@@ -16,7 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 INCLUDEPATH += /darknet/include/
 
-LIBS += -L/home/lincolnhard/Documents/darknet
+LIBS += -L/darknet
 LIBS += -ldarknet
 LIBS += -L/usr/local/lib/
 LIBS += -lopencv_core
